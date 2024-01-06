@@ -21,17 +21,20 @@ public class Q012 {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		
 		System.out.print("숫자: ");
-		int num = Integer.parseInt(reader.readLine());
+		int num = Integer.parseInt(reader.readLine()); // 문자열 -> 숫자
 		
 		
-		// 메서드 생성부터 시작
-		
+		getNumber(num); // 메서드 호출
+
 	}
 	
 	
-	
-	
-	
-	
+	private static String getNumber(int num) {
+
+		String result = num % 2 == 0 ? "짝수" : "홀수";
+		System.out.printf("입력하신 숫자 '%d'는(은) '%s'입니다.\n", num, result);
+		
+		return result;
+	}
 	
 }
