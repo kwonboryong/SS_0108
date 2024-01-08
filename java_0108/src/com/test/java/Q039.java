@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 public class Q039 {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		
+		
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		
 		System.out.print("시작 숫자: ");

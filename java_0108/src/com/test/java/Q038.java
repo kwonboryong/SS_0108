@@ -11,11 +11,11 @@ public class Q038 {
 		
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		
-		int sum = 0;
-		
 		System.out.print("입력 횟수: ");
 		int count = Integer.parseInt(reader.readLine());
+
 		
+		int sum = 0;
 		
 		int even = 0; // 짝수 개수
 		int add = 0; // 홀수 개수
